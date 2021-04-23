@@ -1,7 +1,7 @@
-#estrutura básica de uma função:
-#def <identificador da função> (<parametro(s)>):
-    #<código que será executado>
-    #return <Dado que será retornado, caso seja necessário>
+# estrutura básica de uma função:
+# def <identificador da função> (<parametro(s)>):
+    # <código que será executado>
+    # return <Dado que será retornado, caso seja necessário>
 
 def preencherInventario(lista):
     resp="S"
