@@ -21,3 +21,4 @@ rede = input("Digite os dois primeiros octetos: ")
 for ip, nome in ips.items():
     if(ip[0] == rede):
         print(nome)
+
