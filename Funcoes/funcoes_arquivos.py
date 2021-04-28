@@ -17,7 +17,7 @@ def registrar(dicionario):
 def persistir(dicionario):
     with open("inventario.csv", "a") as inv:
         for chave, valor in dicionario.items():
-            inv.write(chave + ";" + valor[0] + ";" + valor[1] + ";" + valor[2] + "")
+            inv.write(chave + ";" + valor[0] + ";" + valor[1] + ";" + valor[2] + " ")
     return "Persistido com sucesso"
 
 def exibir():
